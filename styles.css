@@ -1,0 +1,187 @@
+/* reset */
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    }
+ul{
+    padding: 0%;
+    list-style-type: none;
+}
+html {
+    font-size: 10px;
+}
+
+.body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+.construction{
+   background-image: url("IMG/danger.JPG");
+   
+   background-size: auto;
+}
+
+.main{
+    
+    background-color: rgba(65, 61, 48, 0.11);
+}
+
+.pagewrapper{
+padding: 2rem 6rem;
+background-color: cornsilk;
+text-decoration-color: black;
+
+}
+
+/* headerarea */
+.header {
+    width: 100%;
+    background-color:cornsilk;
+    
+}
+
+.container_box{
+    background-color: rgb(131, 168, 173);
+    opacity: 0.9;
+}
+.pageheading {
+    font: bold;
+    font-size: 7rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    padding-top: 5rem;
+    
+}
+
+.subheader {
+    font-size: 3rem;
+    color: rgba(86, 88, 196, 0.685);
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.breadtxt {
+    font-size:1.75rem;
+    margin-top: .5rem;
+}
+
+.workandeduc{
+    background-color:rgba(65, 61, 48, 0.11);
+}
+
+.work_edu {
+    align-self: auto;
+    font-size:2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+
+.headingsarea {
+    width: 100%;
+}
+
+
+/* pagenav */
+.pagenav {
+  background-color: cornsilk;
+  margin: 0rem 0rem;  
+  padding: 3rem 2rem;
+  margin-left: 0%;
+}
+.pagenav__list {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;   
+    margin: 0%;
+    
+}
+
+.pagenav__listitem {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    
+}
+
+/* GALLERY */
+
+/* .featured-section {
+
+} */
+
+/* laver a-tags om til block elements */
+.anchor-block {
+    display: block;
+    padding-top: 5px; 
+}
+
+.featured-image-wrapper {
+    display: block;
+    width: calc(((75vw - 12rem)/2.7)*1.92);
+    height: calc(((75vw - 12rem)/4)*1.5);
+    margin: auto;
+    text-align: center;
+}
+
+.featured-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__link {
+    display: block;
+    width: calc((100vw - 12rem)/4);
+    height: calc((100vw - 12rem)/4);
+}
+
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: 0%;
+    
+  }
+  
+  .CV_meta{
+      list-style-type: none;
+  }
+
+.img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.SoMe {
+    background-color: rgba(65, 61, 48, 0.11) ;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-around;   
+      
+    
+}

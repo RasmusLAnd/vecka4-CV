@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Myself</title>
+</head>
+<body class="construction">
+    <div class="container_box">
+      <div>
+            <p>            
+                    <h3>Rasmus Lund Andersen, 40 years old</h3>
+                    <h3>Married to my beautiful wife. Our daughter is 2 years old</h3>             
+            </p>
+        </div>
+
+        <div style="max-width:400px">
+        <img class="mySlides" src="IMG/ida1.JPG" style="width:100%">
+        <img class="mySlides" src="IMG/ida2.JPG" style="width:100%">
+        <img class="mySlides" src="IMG/ida3.JPG" style="width:100%">
+        </div>
+        <script >
+    var myIndex = 0;
+    carousel();
+// Taken directly from the internet
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+    </div>
+</body>  
+</html>
